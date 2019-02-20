@@ -1,0 +1,88 @@
+#some-id{
+	font-size: 24px;
+}
+
+.some-other-class .some-class{
+	color: red;
+}
+
+#some-id .some-class{
+	text-decoration: underline;
+	color: blue;
+}
+
+.some-class{
+	color: peru;
+}
+
+div{
+	border: 1px solid red;
+}
+
+#some-id .some-class .some-element{
+	color: green;
+}
+
+#some-id.third-class{
+	padding: 15px;
+}
+
+div, span{
+	background: #eaeaea;
+	background: rgba(255,123,28,.5)
+}
+
+ul li{
+	border: 1px solid navy;
+}
+
+ul li:nth-of-type(2){
+	border: none;
+}
+
+ul li:not(:first-of-type){
+	border-top: 5px solid green;
+}
+
+ul li:nth-of-type(odd){
+	background: skyblue;
+}
+
+ul li:nth-of-type(even){
+	background: lightgoldenrodyellow;
+}
+
+button{
+	width: 100px;
+	height: 30px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid blue;
+	border-radius: 5px;
+}
+
+button:hover{
+	background: blue;
+	color: white;
+}
+
+div.some-div{
+	width: 100%;
+	height: 30px;
+	border: 1px solid peru;
+	margin-top: 20px;
+}
+
+div.some-div::after{
+	content: "some-text";
+	color: white;
+	font-style: italic;
+	text-decoration: underline;
+}
+
+div.some-div::before{
+	content: "some other text";
+	color: black;
+	font-weight: bold;
+}

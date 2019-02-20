@@ -1,0 +1,62 @@
+.navbar img{
+	width: 110px;
+}
+
+.store-buttons-wrapper{
+	width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.store-buttons-wrapper .store-button{
+	width: 70px;
+    height: 24px;
+}
+
+.store-buttons-wrapper .store-button.play-store{
+	background: url("../img/en-gb.svg");
+	background-repeat: no-repeat;
+}
+
+.store-buttons-wrapper .store-button.app-store{
+	background: url("../img/en-gb(1).svg");
+	background-repeat: no-repeat;
+}
+
+.custom-background{
+    background: url(../img/life-of-bread-hero.jpg);
+    background-size: auto 100%;
+    background-position-x: 50%;
+}
+
+.custom-background img{
+	width: 50%;
+    display: block;
+    margin: 20px auto 0 auto;
+}
+
+.custom-background h1, 
+.custom-background h2{
+    color: white;
+    text-align: center;
+}
+
+.custom-background h1{
+	font-size: 45px;
+    font-weight: bold;
+}
+
+.custom-background h2{
+	font-size: 18px;
+}
+
+.video-button{
+	display: block;
+    background: white;
+    border-radius: 60px;
+    width: 70%;
+    color: #45ada1;
+    text-transform: uppercase;
+    font-size: 24px;
+    margin: 20px auto 0 auto;
+}
